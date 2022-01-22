@@ -40,7 +40,7 @@ class HomeController extends Controller
 
     public function index()
     {
-             
+            return redirect('/pos');  
 
         //return phpinfo();
         //return Printing::printers();
